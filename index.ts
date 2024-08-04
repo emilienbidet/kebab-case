@@ -1,4 +1,26 @@
 /**
+ * @module KebabCaseConverter
+ *
+ * This module provides a single utility for transforming strings into kebab case format.
+ * It includes a function for converting strings to kebab-case, which is useful for
+ * generating URL-friendly slugs, CSS class names, and other scenarios where a consistent
+ * hyphenated format is desired.
+ *
+ * The module handles accented characters and various input formats, ensuring clean and readable output.
+ *
+ * @example
+ * ```typescript
+ * import { kebabCase } from './StringCaseConverter';
+ *
+ * const slug = kebabCase('Hello World'); // Returns: 'hello-world'
+ * console.log(slug);
+ *
+ * const className = kebabCase("éléphant"); // Returns: 'elephant'
+ * console.log(className);
+ * ```
+ */
+
+/**
  * A type alias for a function that transforms a string into another string format.
  *
  * @typedef {Function} CaseFunction
