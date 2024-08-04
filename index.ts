@@ -1,3 +1,14 @@
+/**
+ * A type alias for a function that transforms a string into another string format.
+ *
+ * @typedef {Function} CaseFunction
+ * @param {string} input - The string to be transformed.
+ * @returns {string} - The transformed string.
+ *
+ * @example
+ * const exampleFunction: CaseFunction = (input) => input.toUpperCase();
+ * console.log(exampleFunction("hello")); // Outputs: "HELLO"
+ */
 type CaseFunction = (input: string) => string;
 
 /**
