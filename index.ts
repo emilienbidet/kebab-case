@@ -52,9 +52,9 @@ type CaseFunction = (input: string) => string;
  *
  * @example
  * ```typescript
- * kebabCase('Hello World'); // Returns: 'hello-world'
- * kebabCase('This_is_a_test'); // Returns: 'this-is-a-test'
- * kebabCase('C'est un éléphant'); // Returns: 'c-est-un-elephant'
+ * kebabCase("Hello World"); // Returns: "hello-world"
+ * kebabCase("This_is_a_test"); // Returns: "this-is-a-test"
+ * kebabCase("C'est un éléphant"); // Returns: "c-est-un-elephant"
  * ```
  */
 
